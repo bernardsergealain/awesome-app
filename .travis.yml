@@ -5,8 +5,12 @@ php:
   - 7.2
   - 7.4
 
+env:
+  - SYMFONY_VERSION=origin/5.1
+
 before_script:
   - composer install --dev
+    php vendor/vendors.php
 
 script: phpunit --coverage-text
 
