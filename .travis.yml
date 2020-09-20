@@ -10,7 +10,7 @@ env:
 
 before_script:
   - composer install --dev
-    php vendor/vendors.php
+  - php vendor/vendors.php
 
 script: phpunit --coverage-text
 
