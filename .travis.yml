@@ -1,7 +1,7 @@
 language: php
 
 php:
-  - 7.2
+  - 7.4
 
 env:
   - SYMFONY_VERSION=origin/5.1
