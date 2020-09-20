@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.0
+  - 7.2
+  - 7.4
+
+before_script:
+  - composer install --dev
+
+script: phpunit --coverage-text
+
+notifications:
+  email:
+    - bernardsergealain@gmail.com
